@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/apple/Documents/WORK/sdl_test_project/out/build",
+  "command": "/usr/local/bin/g++-14 -isystem /Users/apple/vcpkg/installed/x64-osx/include -isystem /Users/apple/vcpkg/installed/x64-osx/include/tweeny -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -o CMakeFiles/sdl_test_project.dir/src/main.cpp.o -c /Users/apple/Documents/WORK/sdl_test_project/src/main.cpp",
+  "file": "/Users/apple/Documents/WORK/sdl_test_project/src/main.cpp",
+  "output": "CMakeFiles/sdl_test_project.dir/src/main.cpp.o"
+}
+]
