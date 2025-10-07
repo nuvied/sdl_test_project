@@ -1,14 +1,17 @@
-# Build and IDE artifacts
-/out/
-/build/
-/.vscode/ipch/
-CMakeCache.txt
+# CMake build folders
+build/
+out/
 CMakeFiles/
-*.user
+CMakeCache.txt
+*.cmake
+
+# IDE / editor stuff
+.vscode/ipch/
+*.code-workspace
+
+# Logs and temp files
 *.log
 
-# macOS
+# macOS / Windows system files
 .DS_Store
-
-# Windows
 Thumbs.db
