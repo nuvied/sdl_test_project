@@ -8,6 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(SDL3 CONFIG REQUIRED)
 find_package(SDL3_image CONFIG REQUIRED)
 find_package(SDL3_ttf CONFIG REQUIRED)
+find_package(box2d CONFIG REQUIRED)
+
 
 # New dependencies
 find_package(glm CONFIG REQUIRED)
@@ -24,4 +26,5 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     glm::glm
     EnTT::EnTT
     tweeny
+    box2d::box2d
 )
