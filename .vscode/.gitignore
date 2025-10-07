@@ -1,0 +1,14 @@
+# Build and IDE artifacts
+/out/
+/build/
+/.vscode/ipch/
+CMakeCache.txt
+CMakeFiles/
+*.user
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
