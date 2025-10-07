@@ -1,0 +1,19 @@
+# CMake build folders
+build/
+Build/
+out/
+Out/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+
+# IDE / editor stuff
+.vscode/ipch/
+*.code-workspace
+
+# Logs and temp files
+*.log
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
